@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+ <lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--script bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!--script bootstrap js-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!--script Linkedin-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
     <title>Ludmila Antuofermo - Web developer</title>
 </head>
 
 <body>
     <header>
-
+ <!--Languages-->
         <ul class="nav justify-content bg-dark">
             <li class="nav-item mt-2 ml-2 mb-2">
                 <a class="nav-right text-light" href="./fr/index.html"><img src="./img/fr-flag.png" alt="version francaise"></a></li>
             <li class="nav-item mt-2">
                 <a class="nav-right text-light ml-3" href="./de/index.html"><img src="./img/de-flag.png" alt="deutsch webseite "></a></li>
         </ul>
- 
+ <!--Nav-->
         <ul class="nav justify-content-center bg-dark">
             <li class="nav-item">
-              <a class="nav-link text-light" href="#project">Projects</a>
+              <a class="nav-link text-light" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#background">Background</a>
@@ -35,40 +43,66 @@
         
     </header>
 <main>
-    <article class="container m-0">
-        <img src="/img/ludmila-antuofermo.png" class="rounded-circle ml-5 mt-5 col-sm-5 col-md-5 col-lg-5">
-        <h1 class="ml-5 mt-5 col-12">Ludmila Antuofermo</h1>
-        <h2 class="font-italic ml-5 mb-5 col-12">Web developer in the making</h2>
-        <p class="text-justify m-5 col-11">about me: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus beatae quae, nobis non perferendis aliquam nulla cum quisquam fuga iusto atque quam ea suscipit in nemo similique? Numquam, fugit aspernatur!
-        </p>
+    <!--About me-->
+    <article class="container mt-5 text-center">
+        <img src="./img/ludmila-antuofermo.png" class="rounded-circle m-5 col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+        <h1 class="col-12">Ludmila Antuofermo</h1>
+        <h2 class="font-italic col-12">Web developer in the making</h2>
+        <p class=" mt-4 mb-5 text-justify col-12">about me: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus beatae quae, nobis non perferendis aliquam nulla cum quisquam fuga iusto atque quam ea suscipit in nemo similique? Numquam, fugit aspernatur!
+        </p></div>
     </article>
 
-<section class="container bg-light ml-4">
+<!--Skills-->
+<section class="container bg-light text-left">
     <ul class="list-unstyled">
         <li class="mb-2 col-3 text-center text-light bg-dark rounded">Hard skills</li>
         <ul class="row list-unstyled mb-5">
-            <li class="col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>html5</b></li>
-            <li class="col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Git</b></li>
-            <li class="col-sm-3 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Bootstrap</b></li>
-            <li class="col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>CSS</b></li>
+            <li class="col-2 col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>html5</b></li>
+            <li class="col-2 col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Git</b></li>
+            <li class="col-3 col-sm-3 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Bootstrap</b></li>
+            <li class="col-3 col-sm-2 mr-3 ml-3 mt-2 text-center text-light bg-info rounded-pill"><b>CSS</b></li>
         </ul>
 
         <li class="mb-2 col-3 text-center text-light bg-dark rounded">Soft skills</li>
         <ul class="row list-unstyled mb-5">
-            <li class="col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Mindful</b></li>
-            <li class="col-sm-3 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Resilience</b></li>
-            <li class="col-sm-3 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Team work</b></li>
-            <li class="col-sm-6 col-md-4 mr-3 ml-3 mt-2 text-center text-light bg-info rounded-pill"><b>Emotional management</b></li>
+            <li class="col-2 col-sm-2 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Mindful</b></li>
+            <li class="col-3 col-sm-3 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Resilience</b></li>
+            <li class="col-3 col-sm-3 mr-3 ml-3 text-center text-light bg-info rounded-pill"><b>Team work</b></li>
+            <li class="col-6 col-sm-6 col-md-4 mr-3 ml-3 mt-2 text-center text-light bg-info rounded-pill"><b>Emotions' management</b></li>
         </ul>
     </ul>
 </section>
 
-<section class="container ml-4">
-    <img class="col-sm-12" src="https://via.placeholder.com/600x300/">
-    <p class="col-sm-10"><b>The dots</b></p>
-    <p class="col-sm-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis quidem veniam officia, at expedita id alias distinctio. <a href="">Visit the project</a></p>
+
+<!--My projects-->
+<section class="container mb-5" id="projects">
+    <div class="row">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">The Dots</h5>
+          <p class="card-text">From the idea to the Website conception (html, CSS, bootstrap, js). </p>
+          <a href="#" class="btn btn-dark">Check my work here</a>
+        </div> <!--closes card-->
+      </div> <!--closes col-sm-6-->
+    </div> <!--closes row-->
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+      <div class="card">
+        <img src="/img/sofaconcerts-blog.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">SofaConcerts</h5>
+          <p class="card-text">Migration of blog-articles (wordpress) to the new system, adaptation of content and transfer (html & bootstrap)</p>
+          <a href="https://www.sofaconcerts.org/de/sofablog" class="btn btn-dark">Check my work here</a>
+        </div> <!--closes card body-->
+      </div> <!--closes card-->
+    </div> <!--closes col-->
+    </div> <!--closes row-->
+  </section>
+
+<!--Socials-->
+<section>
+      
 </section>
-
-
 </main>
 </body>
