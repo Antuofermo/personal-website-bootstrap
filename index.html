@@ -15,9 +15,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!--script Linkedin-->
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
     <title>Ludmila Antuofermo - Web developer</title>
 </head>
 
@@ -26,9 +23,12 @@
  <!--Languages-->
         <ul class="nav bg-dark">
             <li class="nav-item mt-2 ml-2 mb-2">
-                <a class="nav-right text-light" href="./fr/index.html"><img src="./img/fr-flag.png" alt="version francaise"></a></li>
+                <a class="nav-right text-light" href="./fr/index.html"><img src="./img/fr-flag.png" alt="version francaise"></a>
+            </li>
+
             <li class="nav-item mt-2">
-                <a class="nav-right text-light ml-3" href="./de/index.html"><img src="./img/de-flag.png" alt="deutsch webseite "></a></li>
+                <a class="nav-right text-light ml-3" href="./de/index.html"><img src="./img/de-flag.png" alt="deutsch webseite "></a>
+            </li>
         </ul>
  <!--Nav-->
         <ul class="nav justify-content-center bg-dark">
@@ -41,28 +41,29 @@
             <li class="nav-item">
               <a class="nav-link text-light" href="#contact">Contact</a>
             </li>
-          </ul>
-        
+        </ul>
     </header>
+
 <main>
+
     <!--About me-->
-    <section class="container mt-4 text-center d-flex flex-column align-items-center">
-        <div class="col-3">
-          <img src="./img/ludmila-antuofermo.png" class="img-fluid rounded-circle">
-        </div>
-        <h1 class="col-12">Ludmila Antuofermo</h1>
-        <h2 class="font-italic col-12">Web developer</h2>
-        <p class="mt-4 mb-5 text-justify col-8 col-sm-10 col-md-7 col-lg-6 col-xl-6">I'm a french front-end developer and want to create a better world by developing meaningful projects.
-        </p></div>
-    </section>
+  <section class="container mt-5 text-center d-flex flex-column align-items-center">
+    <div class="col-7 col-sm-7 col-md-5 col-lg-4 col-xl-3 mb-4">
+      <img src="./img/ludmila-antuofermo.png" class="img-fluid rounded-circle">
+    </div>
+    <h1 class="col-12">Ludmila Antuofermo</h1>
+    <h2 class="font-italic col-12">Web developer</h2>
+    <p class="mt-4 mb-5 text-justify col-10 col-md-8 col-xl-7">I'm a french front-end developer based in Hamburg, Germany. I want to create a better world by developing meaningful projects.
+    </p>
+  </section>
 
 <!--Skills-->
+  <section class="container lead mb-5 d-flex flex-column align-items-center">
+    <div class="bg-light col-11 col-md-9 col-xl-7">
+    <h3 class="text-light h5">
+      <span class="bg-dark text-light rounded p-2">Hard skills</span>
+    </h3>
 
-<section class="container lead mb-5 d-flex flex-column align-items-center">
-  <div class="bg-light col-8">
-      <p class="text-light">
-        <span class="bg-dark rounded p-2">Hard skills</span>
-      </p>
       <div class="text-center">
         <span class="badge badge-info rounded p-2 m-1">html 5</span>
         <span class="badge badge-info rounded p-2 m-1">Gitgub</span>
@@ -76,7 +77,9 @@
         <span class="badge badge-info rounded p-2 m-1">SPSS</span>
       </div>
       
-      <p class="mb-2 mt-4 col-5 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center text-light bg-dark rounded">Soft skills</p>
+      <h4 class="text-light h5 mt-5">
+        <span class="bg-dark rounded p-2">Soft skills</span>
+      </h4>
       <div class="text-center">
         <span class="badge badge-info rounded p-2 m-1">Mindful</span>
         <span class="badge badge-info rounded p-2 m-1">Flexibility</span>
@@ -87,174 +90,163 @@
         <span class="badge badge-info rounded p-2 m-1">Resourcefulness</span>
         <span class="badge badge-info rounded p-2 m-1">Emotion management</span>
       </div>
+    </div> <!--col content-->
+  </section>
+
+<!--Background-->
+  <!--education-->
+  <section class="container mb-5 d-flex flex-column align-items-center" id="background">
+    <h1 class="mb-3 h5 text-uppercase "><b>education</b></h1>
+    <div id="accordion" class="col-11 col-md-9 col-xl-7">
+    <!--neuefische-->
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          neuefische GmbH - School and Pool for Digital Talent | Current
+            </button>
+          </h5>
+        </div>
+
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+        <div class="card-body">
+       The neuefische bootcamp teaches the key skills for web developement, including:
+          <div class="row mt-2"></div>
+            <button type="button" class="btn btn-dark disabled mb-2">Shell</button>
+            <button type="button" class="btn btn-dark disabled mb-2">html 5</button>
+            <button type="button" class="btn btn-dark disabled mb-2">Bootstrap 4</button>
+            <button type="button" class="btn btn-dark disabled mb-2">CSS 3</button>
+            <button type="button" class="btn btn-outline-dark  disabled mb-2">Sass</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">Javascript</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">Node.js</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">MongoDB</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">GraphQL</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">React</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">UX</button>
+            <button type="button" class="btn btn-outline-dark disabled mb-2">Agile methods</button>
+          </div>
+        </div>
+      </div>
+
+    <!--Master degree-->
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Master's degree in Economic and Work Psychology | 2017
+            </button>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            The teaching covered the fields of consumer behavior, employee/staff psychology and analysis of work situations.<br><br>
+            <ul>
+              <li>Brand image and consumer behavior</li>
+              <li>Integrated marketing communications</li>
+              <li>Marketing Strategies</li>  
+              <li>Market studies (quali & quanti)</li>
+              <li>Leading & conducting meetings</li>
+              <li>Statistics (SPSS)</li>
+            </ul>
+            Master thesis: Crossmodal correspondences between sound and texture: The consumer experience in an online environment
+          </div>
+        </div>
+      </div>
+
+    <!--Bachelor degree-->
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Bachelor's degree in experimental psychology | 2013
+            </button>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+      The teaching covered the fields of cognitive psychology and research methods. <br><br>
+      Bachelor Thesis: Induction of discrete emotions through films
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!--Background-->
-  <!--education-->
-<section class="container mb-5 d-flex flex-column align-items-center" id="background">
-  <h1 class="mb-3 h5"><b>EDUCATION</b></h1>
-  
-<!--collapse-->
-<div id="accordion" class="col-8">
-
-  <!--neuefische-->
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link text-dark" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          neuefische GmbH - School and Pool for Digital Talent | Current
-        </button>
-      </h5>
-    </div>
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-       The neuefische bootcamp teaches the key skills for web developement, including:
-      <div class="row mt-2"></div>
-       <button type="button" class="btn btn-dark disabled mb-2">Shell</button>
-       <button type="button" class="btn btn-dark disabled mb-2">html 5</button>
-       <button type="button" class="btn btn-dark disabled mb-2">Bootstrap 4</button>
-       <button type="button" class="btn btn-dark disabled mb-2">CSS 3</button>
-       <button type="button" class="btn btn-outline-dark  disabled mb-2">Sass</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">Javascript</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">Node.js</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">MongoDB</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">GraphQL</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">React</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">UX</button>
-       <button type="button" class="btn btn-outline-dark disabled mb-2">Agile methods</button>
-
-      </div>
-    </div>
-  </div>
-
-  <!--Master degree-->
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Master's degree in Economic and Work Psychology | 2017
-        </button>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-      The teaching covered the fields of consumer behavior, employee/staff psychology and analysis of work situations.
-<br><br>
-      <ul>
-        <li>Brand image and consumer behavior</li>
-        <li>Integrated marketing communications</li>
-        <li>Marketing Strategies</li>  
-        <li>Market studies (quali & quanti)</li>
-        <li>Leading & conducting meetings</li>
-        <li>Statistics (SPSS)</li>
-      </ul>
-      
-      Master thesis: Crossmodal correspondences between sound and texture: The consumer experience in an online environment
-      </div>
-    </div>
-  </div>
-
-  <!--Bachelor degree-->
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <button class="btn btn-link collapsed text-dark" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Bachelor's degree in experimental psychology | 2013
-        </button>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-      The teaching covered the fields of cognitive psychology and research methods. <br><br>
-      Bachelor Thesis: Induction of discrete emotions through films
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
 <!--Experience-->
-<section class="container mb-5">
- <h1 class="h5"><b>EXPERIENCE</b></h1>
-    <div class="d-flex justify-content-center">
-        <div class="card-body">
-          <div class="col-12 col-sm-12 col-md-10 col-lg-8 col-xl-7 ">
-            <div class="card">
-              <img src="./img/sofaconcerts-blog.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">SofaConcerts</h5>
-                <p class="card-text">Migration of blog-articles (wordpress) to the new system, adaptation of content and transfer (html & bootstrap) for the en, fr & de version.</p>
-                <a href="https://www.sofaconcerts.org/de/sofablog" target="blank" class="btn btn-dark">Check my work here</a>
-              </div> <!--closes card body-->
-            </div> <!--closes card-->
-          </div> <!--closes col-->
-        </div> <!--closes card-body-->
-      </div>
-</section>
+  <section class="container d-flex flex-column align-items-center mb-5">
+    <h1 class="h5 text-uppercase"><b>experience</b></h1>
+    <div class="card-body col-11 col-md-6 col-xl-7">
+      <div class="card">
+        <img src="./img/sofaconcerts-blog.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SofaConcerts</h5>
+        <p class="card-text">Migration of blog-articles (wordpress) to the new system, adaptation of content and transfer (html & bootstrap) for the en, fr & de version.</p>
+        <a href="https://www.sofaconcerts.org/de/sofablog" target="blank" class="btn btn-dark">Check my work here</a>
+          </div> <!--closes card body-->
+        </div> <!--closes card-->
+      </div> <!--closes col-->
+    </div> <!--closes card-body-->
+  </section>
 
 <hr>
 <!--Socials-->
-<section class="container mb-5 text-center" id="contact">
-
-        <h1 class="mb-5">Let's get in touch!</h1>
+  <section class="container mb-5 text-center" id="contact">
+    <h1 class="h3 mb-5">Let's get in touch!</h1>
     
-        <a href="https://github.com/antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1"src="./img/github-logo-white.png" alt="My Github profile"></a>
-    
-        <a href="https://codepen.io/Antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1"src="./img/codepen-logo-white.png" alt="My codepen projects"></a> 
-    
-        <a href="https://linkedin.com/in/ludmila-antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1"src="./img/linkedin-logo-white.png" alt="My Linkedin profile"></a> 
-    
-        <a href="https://linkedin.com/in/ludmila-antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1"src="./img/xing-logo-white.png" alt="My Xing profile"></a> 
-    </div>
-</section> <!--closes socials-->
+      <a href="https://github.com/antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1" src="./img/github-logo-white.png" alt="My Github profile"></a>
+      
+      <a href="https://codepen.io/Antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1"src="./img/codepen-logo-white.png" alt="My codepen projects"></a> 
+      
+      <a href="https://linkedin.com/in/ludmila-antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1" src="./img/linkedin-logo-white.png" alt="My Linkedin profile"></a> 
+      
+      <a href="https://linkedin.com/in/ludmila-antuofermo" target="blank"><img class="img-fluid col-2 col-sm-2 col-md-2 col-lg-1" src="./img/xing-logo-white.png" alt="My Xing profile"></a> 
+  </section> <!--closes socials-->
 
 <!--Contact info-->
-<section class="container text-center">
-    <p>
-        <button class="btn btn-dark" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Email</button>
+  <section class="container text-center">
+    <button class="btn btn-dark" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Email</button>
 
-        <button class="btn btn-dark text-light" type="button" data-toggle="collapse" role="button "data-target="#multiCollapseExample2" aria-expanded="false"
+      <button class="btn btn-dark text-light" type="button" data-toggle="collapse" role="button "data-target="#multiCollapseExample2" aria-expanded="false"
         aria-controls="multiCollapseExample2">Phone number</button>
 
-        <button class="btn btn-dark text-light" type="button" data-toggle="collapse" role="button" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Address</button>
+    <button class="btn btn-dark text-light" type="button" data-toggle="collapse" role="button" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Address</button>
 
-      </p>
-      <div class="row">
-        <div class="col mb-3">
-          <div class="collapse multi-collapse" id="multiCollapseExample1">
-            <div class="card card-body">
-              <a href= "mailto:ludmila@antuofermo.eu">ludmila@antuofermo.eu</a>
-            </div>
+    <div class="row">
+      <div class="col mb-3">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+          <div class="card card-body">
+            <a href= "mailto:ludmila@antuofermo.eu">ludmila@antuofermo.eu</a>
           </div>
         </div>
-        <div class="col mb-3">
-          <div class="collapse multi-collapse" id="multiCollapseExample2">
-            <div class="card card-body">
-              <a href="+4915902186414">+4915902186414</a>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-3">
-            <div class="collapse multi-collapse" id="multiCollapseExample3">
-              <div class="card card-body">
-                Reeperbahn 127, 20359 Hamburg Germany</a>
-              </div>
-            </div>
-          </div>
       </div>
-</section> <!--closes contacts-->
+      <div class="col mb-3">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+          <div class="card card-body">
+            <a href="+4915902186414">+4915902186414</a>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-3">
+        <div class="collapse multi-collapse" id="multiCollapseExample3">
+          <div class="card card-body">
+                Reeperbahn 127, 20359 Hamburg Germany</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!--closes contacts-->
 
 </main>
-</body>
 
 <!--footer-->
 <footer class="page-footer font-small bg-dark text-light">
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center p-3">© 2020 Copyright:
-      <a href="https://github.com/antuofermo" target="blank">Ludmila Antuofermo</a>
-    </div>
-    <!-- Copyright -->
-  
-  </footer>
+  <div class="footer-copyright text-center p-3">© 2020 Copyright:
+    <a href="https://github.com/antuofermo" target="blank">Ludmila Antuofermo</a>
+  </div>  
+</footer>
+
+</body>
+</html>
+
+
